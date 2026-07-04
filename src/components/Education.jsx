@@ -10,10 +10,10 @@ const EDUCATION = [
     institution: "SAE Institute London",
     period: "Sep 2025 - Present",
     units: [
-      "4FSC0WE001 Web Design Fundamentals",
+      "4FSC0WE001 Web Design Fundamentals (A)",
       "4FSC0WE002 Web Development Basics (A)",
       "4FSC0WE003 Front-end Fundamentals (A)",
-      "4FSC0WE004 Back-end Fundamentals",
+      "4FSC0WE004 Back-end Fundamentals (A)",
     ],
   },
   {

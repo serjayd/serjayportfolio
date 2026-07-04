@@ -1,30 +1,25 @@
 import React from "react";
-import project1 from "/project1.png";
-import project2 from "/project2.png";
+import storeDockImg from "/storeDockImg.png";
 import { FaShareSquare } from "react-icons/fa";
 
 const PROJECTS = [
   {
-    title: "MovieCat",
-    image: project2,
-    link: "https://moviecats.netlify.app/",
-    techs: ["HTML", "SCSS", "JavaScript", "Python", "Flask", "SQLite3", "API"],
-    achievements: [
-      "Designed a user authentication & authorization system using Flask and SQLite3",
-      "Integrated a movie database API to fetch movie information",
-      "Implemented a responsive design using SCSS",
-      "Developmed MPA application using Python",
+    title: "StoreDock",
+    image: storeDockImg,
+    link: "https://store-dock.vercel.app/",
+    techs: [
+      "Next.js",
+      "Prisma",
+      "TypeScript",
+      "PostgreSQL",
+      "Stripe",
+      "Better Auth",
     ],
-  },
-  {
-    title: "Planet Zoo",
-    image: project1,
-    link: "https://planet-zoo.netlify.app/",
-    techs: ["HTML", "SCSS", "JavaScript", "JQuery"],
     achievements: [
-      "Used jQuery to create a dynamic and interactive user interface",
-      "Implemented a form validation using JavaScript",
-      "Designed a responsive layout using SCSS",
+      "Built a full-stack SaaS store platform with authentication and subscription-based access",
+      "Implemented secure user authentication and authorization using Better Auth",
+      "Integrated Stripe subscriptions with webhook-driven premium plan upgrades",
+      "Designed product and user management system using Prisma ORM and PostgreSQL",
     ],
   },
 ];

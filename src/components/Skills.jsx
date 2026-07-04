@@ -3,19 +3,19 @@ import React from "react";
 const SKILLS = [
   {
     title: "Frontend",
-    list: ["HTML", "CSS", "JavaScript"],
+    list: ["Next.js", "React", "TypeScript", "TailwindCSS"],
   },
   {
     title: "Backend",
-    list: ["Node.js", "Express.js"],
+    list: ["Node.js", "Next.js API Routes"],
   },
   {
-    title: "Frameworks",
-    list: ["ReactJS", "SASS", "TailwindCSS"],
+    title: "Database",
+    list: ["PostgreSQL", "Prisma ORM"],
   },
   {
-    title: "Databases",
-    list: ["MongoDB", "SQL"],
+    title: "Authentication",
+    list: ["Better Auth", "Session-based Auth"],
   },
   {
     title: "Tools",

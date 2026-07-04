@@ -11,23 +11,11 @@ const Hero = () => {
         <h1 className="hero__name">Serjay Antsibor</h1>
         <h2 className="hero__title">Front-End Developer</h2>
         <h3 className="hero__location">📍 London, United Kingdom</h3>
-        <p className="hero__description">
-          Plan, Design, Develop, Test, Deploy.
-        </p>
       </div>
       <ul className="hero__cta">
         <li>
           <a
-            href="https://drive.google.com/file/d/1dctCDsrVpv6lUR3O6EhhQ6d8PtAKiwO1/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFileDownload className="hero__icon" /> Resume
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/serjaydc"
+            href="https://github.com/serjayd"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,13 +32,6 @@ const Hero = () => {
           </a>
         </li>
       </ul>
-      <div className="hero__contact">
-        <h2>Want to Work Together?</h2>
-        {/* <button className="btn btn-primary btn-contact">Get in Touch</button> */}
-        <a href="mailto:serhiinote@gmail.com" className="btn btn-primary">
-          Get in Touch
-        </a>
-      </div>
     </section>
   );
 };
