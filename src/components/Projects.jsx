@@ -1,5 +1,6 @@
 import React from "react";
 import storeDockImg from "/storeDockImg.png";
+import bloomImg from "/bloomImg.png";
 import { FaShareSquare } from "react-icons/fa";
 
 const PROJECTS = [
@@ -20,6 +21,18 @@ const PROJECTS = [
       "Implemented secure user authentication and authorization using Better Auth",
       "Integrated Stripe subscriptions with webhook-driven premium plan upgrades",
       "Designed product and user management system using Prisma ORM and PostgreSQL",
+    ],
+  },
+  {
+    title: "Bloom",
+    image: bloomImg,
+    link: "https://bloom-delta-ochre.vercel.app/",
+    techs: ["Next.js", "Prisma", "TypeScript", "PostgreSQL", "Better Auth"],
+    achievements: [
+      "Post creation with rich content and interactive note blocks",
+      "Interactive diagrams and Learning Trees built with React Flow",
+      "Comments and likes for community engagement",
+      "Knowledge collections for organizing posts by topic",
     ],
   },
 ];
